@@ -5,12 +5,12 @@ shim which allows to compile scala program which use [scala-async](https://githu
 i.e. if you want port you program to dotty without changing source code, then you can replace scala-async dependecy to this shim for building with dotty.
 
 ```Scala
-   libraryDependencies += "com.github.rssh" %% "shim-scala-async-dotty-cps-async" % "0.3.1-M1",
+   libraryDependencies += "com.github.rssh" %% "shim-scala-async-dotty-cps-async" % "0.3.2-M1",
 ```
 
 ['--' in github project name changed to '-' ]
 
-Supported dotty version is 3.0.0-M1 (async version: 0.3.1),   0.27.0-RC1 (async versionL 0.2.1-RC1)
+Supported dotty version is 3.0.0-M1 (async version: 0.3.2),   0.27.0-RC1 (async versionL 0.2.1-RC1)
 
 Note, that if you want bug-to-bug compatibility with scala2, than you probably want wait for official port of scala-async compiler plugin.
 
