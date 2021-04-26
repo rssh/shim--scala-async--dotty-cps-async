@@ -5,12 +5,12 @@ lazy val root = project
   .in(file("."))
   .settings(
     name := "shim--scala-async--dotty-cps-async",
-    version := "0.6.1",
+    version := "0.6.2",
     scalaVersion := dottyVersion,
 
     libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test",
 
-    libraryDependencies += "com.github.rssh" %% "dotty-cps-async" % "0.6.1" 
+    libraryDependencies += "com.github.rssh" %% "dotty-cps-async" % "0.6.2" 
 
   )
 
